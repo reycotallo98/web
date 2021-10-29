@@ -4,7 +4,7 @@ body {
 }
 #container {
     width: 80%;/*porcentaje ocupado del objet que lo contiene*/
-    height: 100%;
+    height: auto;
     margin: 0 auto; /*margen del container, al ponerlo a cero quitamos el pixel que se queda sin rellenar entre entidades*/
     box-shadow: 0 0 20px grey;
 }
@@ -212,7 +212,4 @@ border-radius: 5px;
     margin: 25px 10px;
     width: 60%;
 }
-.tablas{
-    display: flex;
 
-}
