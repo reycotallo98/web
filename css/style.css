@@ -8,6 +8,10 @@ body {
     margin: 0 auto; /*margen del container, al ponerlo a cero quitamos el pixel que se queda sin rellenar entre entidades*/
     box-shadow: 0 0 20px grey;
 }
+#home img{
+    height: 60%;
+    width: 80%;
+}
 header{
     background-color: #0092be;
     padding: 16px;  /*pading se usa para engordar*/
@@ -54,7 +58,7 @@ nav li:hover{
 nav {
     background-color: rgb(218, 217, 219);
     width: 20%;
-    height: max-content;
+    height: 100%;
     float: left;/*Lo hacemos flotar para recolocarlo*/
 }
 #borde{
@@ -186,6 +190,11 @@ background-color: cadetblue;
     text-align: center;
     
 }
+#formulario{
+   width: 75%;
+    margin: 10px 10px ;
+    float: right;
+}
 #formu input{
 text-align: center;
 color: rgb(128, 180, 240);
@@ -198,6 +207,6 @@ border-radius: 5px;
    border-radius: 5px;
     align-items: center;
     text-align: center;
-    margin: 25px auto;
-    width: 70%;
+    margin: 25px 10px;
+    width: 60%;
 }
