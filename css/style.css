@@ -67,7 +67,9 @@ nav {
 #contenido {
     background-color: rgb(218, 217, 219);
     width: 80%;
+    height: 100%;
     float: right;
+   
 }
 #home{
     text-align: center;
@@ -209,4 +211,8 @@ border-radius: 5px;
     text-align: center;
     margin: 25px 10px;
     width: 60%;
+}
+.tablas{
+    display: flex;
+
 }
