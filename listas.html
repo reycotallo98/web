@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-e quiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>HTML - CSS</title>
@@ -21,41 +21,60 @@
                 <div id="borde">
 
                     <ul>
-                        <a href="index.html"><li>Home</li></a>
-                        <a href="parrafos.html"><li>Párrafos</li></a>
-                        <a href="enlaces.html"><li>Enlaces</li></a>
-                        <a href="tablas.html"><li>Tablas</li></a>
-                        <a href="listas.html"><li>Listas</li></a>
-                        <a href="formularios.html"><li>Formularios</li></a>
-                        <a href="multimedia.html"><li>Multimedia</li></a>
-                        <a href="form.html"><li>Form Html5</li></a>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="parrafos.html">
+                            <li>Párrafos</li>
+                        </a>
+                        <a href="enlaces.html">
+                            <li>Enlaces</li>
+                        </a>
+                        <a href="tablas.html">
+                            <li>Tablas</li>
+                        </a>
+                        <a href="listas.html">
+                            <li>Listas</li>
+                        </a>
+                        <a href="formularios.html">
+                            <li>Formularios</li>
+                        </a>
+                        <a href="multimedia.html">
+                            <li>Multimedia</li>
+                        </a>
+                        <a href="form.html">
+                            <li>Form Html5</li>
+                        </a>
                     </ul>
                 </div>
             </nav>
             <div id="contenido">
-                <div id="listas">
+
+                
+                <fieldset>
                     <h1>Listas</h1>
-                </div>
                 <div>
                     <h2>Listas desordenadas</h2>
-                    <ul>
-                        <li>Hola
-                            <ul>
-                                <li>hola</li>
-                                <li>adios</li>
-                                <li>hasta lue</li>
-                            </ul>
-                        </li>
-                        <li>que tal?
-                            <ul>
-                                <li>como vas?</li>
-                                <li>que tal?</li>
-                            </ul>
-                        </li>
-                    </ul>
+                        <p>para invocar una lista desordenada, usaremos la etiqueta "ul" seguida de sus respectivas "li" por cada elemento de la misma</p>
+                        <ul>
+                            <li>Hola
+                                <ul>
+                                    <li>hola</li>
+                                    <li>adios</li>
+                                    <li>hasta lue</li>
+                                </ul>
+                            </li>
+                            <li>que tal?
+                                <ul>
+                                    <li>como vas?</li>
+                                    <li>que tal?</li>
+                                </ul>
+                            </li>
+                        </ul>
                 </div>
                 <div id="Tbor1">
                     <h2>Tablas ordenadas</h2>
+                    <p>para las listas ordenadas ultilizaremos la etiqueta "ol" seguida de sus "li"</p>
                     <ol>
                         <li>perro
                             <ol>
@@ -89,10 +108,11 @@
                     </ol>
 
                 </div>
-                <h2>lista custom</h2>
+                <h2>Lista custom</h2>
                 <div id="cus1">
+                    <p>Para cambiar los puntitos, se hara en el css con la etiqueta "list-style"</p>
                     <ol>
-                        <li>placa Base 
+                        <li>placa Base
                             <ol>
                                 <li>Zocalo</li>
                                 <li>PCI-Express</li>
@@ -115,7 +135,9 @@
                         </li>
                     </ol>
                 </div>
+                </fieldset>
             </div>
+            <a href="" class="btn-flotante"><img src="img/flecha arriba.png" alt="ir arriba"></a>
             <div class="cb"></div>
             <footer>
                 Developed by Jorge Rey Cotallo S1Dam - &copy; 2021 Azarquiel

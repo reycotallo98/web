@@ -30,22 +30,28 @@
                     </ul>
                 </div>
             </nav>
-            <div id="formulario">
+           
             
+            <div id="formulario">
+                <fieldset>
+                    <h1>Formularios</h1>
+                    <p>Para crear formularios usaremos la etiqueta form(action y method(get/post)), despues por cada metodo de entrada usaremos la entrada input+type=etiqueta</p>
                 <fieldset><p>
                 <form action="https://google.es" method="get">
-                <p><input type="text" name="name" id="name" placeholder="name" ></p>
-                <p></p><input type="password" name="Pass" id="pass" placeholder="Password"></p>
-                </p><input type="text" name="Commen" id="commen" placeholder="Comments"></p>
-                <p><input type="submit" value="Send"> <input type="reset" value="reset"> </p>
-                </form>
+                <p><input type="text" name="name" id="name" placeholder="name" > etiqueta text</p>
+                <p></p><input type="password" name="Pass" id="pass" placeholder="Password">etiqueta password</p>
+                </p><input type="text" name="Commen" id="commen" placeholder="Comments">etiqueta text</p>
                 </p>   
                 </fieldset> 
+                <p><input type="submit" value="Send"> <input type="reset" value="reset"> etiqueta submit y reset </p>
+                </form>
                 <p></p>
                 <fieldset>
                 <p>
                 <form action="https://google.es" method="get">
-                    <p><select name="provincia" >
+                    <p> <h2>Provincia</h2>
+                        <p>etiqueta value</p>
+                        <select name="provincia" >
                     <option value="1">Toledo</option>
                     <option value="2">Albacete</option>
                     <option value="3">Cuenca</option>
@@ -54,7 +60,10 @@
                     </select>
                     </p>
 
-                    <p><select name="color" multiple>
+                    <p>
+                        <h2>Color favorito</h2>
+                        <p>etiqueta value y multiple, para seleccionar varios</p>
+                        <select name="color" multiple>
                         <option value="1">rojo</option>
                         <option value="2">Verde</option>
                         <option value="3">Amarillo</option>
@@ -63,24 +72,30 @@
                     </select>
                     <p>
                         <h2>Sexo</h2>
+                        <p>etiqueta radio</p>
                         <input type="radio" name="Sexo" >Hombre<br>
                         <input type="radio" name="Sexo" >Mujer<br>
-                        <input type="radio" name="Sexo" >Poco o nada<br>
+                        <input type="radio" name="Sexo" >Prefiero no decirlo<br>
                     </p>
                     <p>
                         <h2>Aficiones</h2>
-                        <input type="checkbox" name="Futbol" >FUrbo<br>
+                        <p>etiqueta checkbox</p>
+                        <input type="checkbox" name="Futbol" >Fútbol<br>
                         <input type="checkbox" name="Baloncesto" >Baloncesto<br>
                         <input type="checkbox" name="Waterpolo" >Waterpolo<br>
                         <input type="checkbox" name="Golf" >Golf<br>
                     </p>
                     <p>
+                        <h2>Archivo</h2>
+                        <p>etiqueta file</p>
                         <input type="file" name="Archivo">
                     </p>
+
                     </fieldset>
+                    <p><input type="submit" value="Send"> <input type="reset" value="reset"> </p>
                 </form>
             </p>
-        
+        </fieldset>
             </div>
             <div class="cb"></div>
             <footer>

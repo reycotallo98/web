@@ -1,17 +1,16 @@
 body {
     margin: 0;
     background-color: rgb(218, 217, 219);
+    display: flex;
 }
 #container {
     width: 80%;/*porcentaje ocupado del objet que lo contiene*/
     height: auto;
-    margin: 0 auto; /*margen del container, al ponerlo a cero quitamos el pixel que se queda sin rellenar entre entidades*/
+    margin: 25px auto auto auto; /*margen del container, al ponerlo a cero quitamos el pixel que se queda sin rellenar entre entidades*/
     box-shadow: 0 0 20px grey;
+    
 }
-#home img{
-    height: 60%;
-    width: 80%;
-}
+
 header{
     background-color: #0092be;
     padding: 16px;  /*pading se usa para engordar*/
@@ -44,7 +43,7 @@ nav li{
     list-style-type: none; /*quitar puntos*/
     border: solid blue 2px;
     margin: 10px 5px;
-    border-radius: 20%;/*redondear los cuadros*/
+    border-radius: 15%;/*redondear los cuadros*/
     
 }
 nav li:hover{
@@ -73,7 +72,11 @@ nav {
 }
 #home{
     text-align: center;
+    margin: 10px 10px;
+    width: auto;
+    
 }
+
 footer {
     background-color: #0092be;
     color: rgb(218, 217, 219);
@@ -90,9 +93,10 @@ footer {
 }
 a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .btn-flotante {
-    border-radius: 5px; /* Borde del boton */
+    border-radius: 60px; /* Borde del boton */
     letter-spacing: 2px; /* Espacio entre letras */
     background-color: blue; /* Color de fondo */
     padding: 18px 30px; /* Relleno del boton */
@@ -104,7 +108,7 @@ a{
     z-index: 99;
     }
     .btn-flotante:hover {
-    background-color: #0092be; /* Color de fondo al pasar el cursor */
+    background-color: #0ea4d1; /* Color de fondo al pasar el cursor */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
     }
@@ -114,6 +118,7 @@ a{
     padding: 12px 20px;
     bottom: 20px;
     right: 20px;
+    
     }
     }
     .textcenter{
@@ -151,9 +156,14 @@ background-color: cadetblue;
     
     .horaio{
         margin: 10px;
-        height: 10px;
         width: auto;
         text-align: center;
+        
+        
+    }
+    .horaio th td{
+        border-style: double;
+        box-shadow: 5px;
     }
    #BDD{
        background-color: #709E9E
@@ -177,10 +187,6 @@ background-color: cadetblue;
    #FOL{
        background-color: #F3F3CC;
    }
-   #listas h1{
-       text-align: center;
-       font-style: initial;
-   }
    #Tbor1 li li{
        list-style-type: lower-greek;
        list-style-position: inside;
@@ -190,12 +196,16 @@ background-color: cadetblue;
 }
 #multimedia{
     text-align: center;
+    margin: 10px 10px
     
 }
 #formulario{
    width: 75%;
-    margin: 10px 10px ;
+    margin: 10px 10px 10px 50px ;
     float: right;
+}
+#formu{
+    width: 95%;
 }
 #formu input{
 text-align: center;
@@ -210,6 +220,38 @@ border-radius: 5px;
     align-items: center;
     text-align: center;
     margin: 25px 10px;
-    width: 60%;
+    width: 100%;
 }
-
+#tablas{
+    display: block;
+}
+#home fieldset{
+    margin: 20px;
+    border-color:#0092be ;
+    border-style: double;
+}
+#parrafos fieldset{
+    margin: 20px;
+    border-color:#0092be ;
+    border-style: double;
+}
+#hor{
+    color: #04799c ;
+}
+#formulario fieldset{
+    background-color: #0092be ;
+}
+#formulario input{
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+#formulario fieldset fieldset{
+    background-color:#08a5d4 ;
+    border : none;
+    box-shadow: 3px;
+}
+#contenido fieldset{
+    margin: 10px 10px;
+    background-color: #08a5d4;
+    border-radius: 20px;
+}
